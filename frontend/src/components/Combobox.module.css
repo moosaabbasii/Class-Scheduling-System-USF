@@ -1,0 +1,42 @@
+.combobox {
+    position: relative;
+    
+    input{
+        width: 100%;
+    }
+
+}
+
+.menu {
+    color: black;
+    background: #fff;
+    border: 1px solid #d5d9e2;
+    border-radius: 0.5rem;
+    box-shadow: 0 8px 24px rgb(15 23 42 / 12%);
+    list-style: none;
+    margin: 0.35rem 0 0;
+    max-height: 14rem;
+    overflow-y: auto;
+    padding: 0.25rem;
+    position: absolute;
+    width: 100%;
+    z-index: 30;
+}
+
+.optionButton {
+    background: transparent;
+    border: 0;
+    border-radius: 0.35rem;
+    cursor: pointer;
+    display: block;
+    padding: 0.45rem 0.55rem;
+    text-align: left;
+    width: 100%;
+    color: black;
+}
+
+.optionButton:hover,
+.optionButton:focus-visible {
+    background: #eef2ff;
+    outline: none;
+}

@@ -1,0 +1,99 @@
+.tableWrap {
+    overflow-x: auto;
+}
+
+.scheduleTable {
+    width: 100%;
+    min-width: 980px;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.scheduleTable th,
+.scheduleTable td {
+    border-bottom: 1px solid #e5e7eb;
+    text-align: left;
+    vertical-align: top;
+    padding: 0.65rem 0.55rem;
+    overflow: hidden;
+}
+
+.scheduleTable td p {
+    margin: 0;
+    color: #4b5563;
+}
+
+.cellEllipsis {
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.taList {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.taName {
+    display: block;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+}
+
+.colCrn {
+    width: 80px;
+}
+
+.colCourse {
+    width: 220px;
+}
+
+.colInstructor {
+    width: 180px;
+}
+
+.colEnrolled {
+    width: 90px;
+}
+
+.colRoom {
+    width: 110px;
+}
+
+.colDatetime {
+    width: 150px;
+}
+
+.colTas {
+    width: 140px;
+}
+
+.colActions {
+    width: 150px;
+}
+
+.rowActions {
+    display: flex;
+    gap: 0.45rem;
+}
+
+.tablePagination {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+}
+
+.tablePagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.emptyState {
+    margin: 0;
+    color: #4b5563;
+}
